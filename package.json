@@ -14,5 +14,8 @@
     "turbo": "latest"
   },
   "packageManager": "pnpm@7.15.0",
-  "name": "ghost-link"
+  "name": "ghost-link",
+  "dependencies": {
+    "next": "13.4.9"
+  }
 }
