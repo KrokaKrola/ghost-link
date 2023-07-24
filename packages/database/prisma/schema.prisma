@@ -1,0 +1,17 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://ghost_link_user:ghost_link_password@localhost:5432/ghost_link_db?schema=public"
+}
+
+model Link {
+  id      Int    @id @default(autoincrement())
+  hash    String
+  content String @db.Text
+}

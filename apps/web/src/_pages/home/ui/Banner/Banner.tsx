@@ -9,6 +9,7 @@ export const Banner = () => (
       <p className="text-base">
         If you need to send a password or some other form of simple but sensitive information to someone you can not send it over IM or
         email. These methods are not secure as anyone with little knowledge can intercept this information during transmission. Using
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
         ghost-link.me as the "middle man" you can safely and securely transfer this data to your recipient.
       </p>
     </AppContainer>

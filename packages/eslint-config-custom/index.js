@@ -6,7 +6,7 @@ module.exports = {
   ignorePatterns: ['node_modules', 'dist'],
   parserOptions: {
     babelOptions: {
-      presets: [],
+      presets: [require.resolve("next/babel")],
     },
   },
 };

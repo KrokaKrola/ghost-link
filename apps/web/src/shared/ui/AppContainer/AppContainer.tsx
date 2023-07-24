@@ -11,3 +11,5 @@ export const AppContainer = memo((props: AppContainerProps) => {
 
   return <div className={clsx('container mx-auto px-5', className)}>{children}</div>;
 });
+
+AppContainer.displayName = "AppContainer";
